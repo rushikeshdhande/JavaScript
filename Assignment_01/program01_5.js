@@ -1,10 +1,19 @@
-function Accept(iNo) {
+
+function Accept(iNo) 
+{
     let iCnt = 0;
 
-    for (iCnt = 1; iCnt <= iNo; iCnt++) {
+    for (iCnt = 1; iCnt <= iNo; iCnt++) 
+    {
         console.log("*");
     }
 }
  
-let iValue = 5;
+function main()
+{
+    let iValue = 5;
 Accept(iValue);
+}
+
+
+main();

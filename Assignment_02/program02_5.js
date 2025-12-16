@@ -1,12 +1,19 @@
-function ChkEven(iNo) {
-  if (iNo % 2 === 0) {
+
+
+
+
+function ChkEven(iNo) 
+{
+  if (iNo % 2 === 0) 
+  {
     return true;
   } else {
     return false;
   }
 }
 
-function main() {
+function main() 
+{
   let iValue = 6;
   let bRet = false;
   bRet = ChkEven(iValue);

@@ -1,4 +1,8 @@
-function Display(iNo) {
+
+
+function Display(iNo) 
+
+{
     while (iNo > 0) {
         console.log("*");
         iNo--;

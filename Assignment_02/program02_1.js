@@ -1,4 +1,7 @@
-function Display(iNo) {
+
+
+function Display(iNo) 
+{
     let iCnt = 0;
 
     while (iCnt < iNo) {

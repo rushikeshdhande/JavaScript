@@ -1,17 +1,24 @@
-function Check(iNo) {
-  if (iNo % 5 === 0) {
+
+
+function Check(iNo) 
+{
+  if (iNo % 5 === 0) 
+  {
     return true;
-  } else {
+  } else 
+  {
     return false;
   }
 }
 
-function main() {
+function main() 
+{
   let iValue = 25;
   let bRet = false;
 
   bRet = Check(iValue);
-  if (bRet === true) {
+  if (bRet === true) 
+  {
     console.log("Divisible by 5");
   } else {
     console.log("Not Divisible by 5");

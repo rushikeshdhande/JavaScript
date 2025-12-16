@@ -1,4 +1,7 @@
-function Display() {
+
+
+function Display() 
+{
     let i = 0;
     i = 5;
 

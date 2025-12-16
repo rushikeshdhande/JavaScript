@@ -1,4 +1,8 @@
-function Display(iNo) {
+
+
+
+function Display(iNo) 
+{
     if (iNo < 10) {
         console.log("Hello");
     } else {

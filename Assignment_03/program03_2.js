@@ -1,4 +1,10 @@
-function DisplayFactor(iNo) {
+
+
+
+
+function DisplayFactor(iNo) 
+
+{
     if (iNo <= 0) {
         iNo = -iNo; // convert to positive
     }
@@ -13,5 +19,11 @@ function DisplayFactor(iNo) {
  
 
 
-let iValue = 12;
+function main()
+{
+    let iValue = 12;
 DisplayFactor(iValue);
+}
+
+
+main();
