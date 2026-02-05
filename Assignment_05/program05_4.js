@@ -1,6 +1,4 @@
 
-
-
 function CheckNumberType(num) 
 {
     if (num > 0) 
